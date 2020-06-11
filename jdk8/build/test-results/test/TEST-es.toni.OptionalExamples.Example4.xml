@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="es.toni.OptionalExamples.Example4" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-11T17:22:02" hostname="DESKTOP-TONI" time="0.0">
+<testsuite name="es.toni.OptionalExamples.Example4" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-11T17:40:14" hostname="DESKTOP-TONI" time="0.001">
   <properties/>
   <testcase name="givenOptional_whenGetsValue_thenCorrect" classname="es.toni.OptionalExamples.Example4" time="0.0"/>
   <testcase name="givenOptionalWithNull_whenGetThrowsException_thenCorrect" classname="es.toni.OptionalExamples.Example4" time="0.0"/>
-  <testcase name="whenOrElseThrowWorks_thenCorrect" classname="es.toni.OptionalExamples.Example4" time="0.0"/>
+  <testcase name="whenOrElseThrowWorks_thenCorrect" classname="es.toni.OptionalExamples.Example4" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
