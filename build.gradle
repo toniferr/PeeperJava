@@ -6,6 +6,9 @@ plugins {
 group 'es.toni'
 version '1.0-SNAPSHOT'
 
+sourceCompatibility = 14
+targetCompatibility = 14
+
 repositories {
     mavenCentral()
 }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="es.toni.OptionalExamples.Example3" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-11T18:37:07" hostname="DESKTOP-TONI" time="0.001">
+<testsuite name="es.toni.OptionalExamples.Example3" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-11T18:42:48" hostname="DESKTOP-TONI" time="0.002">
   <properties/>
   <testcase name="whenOrElseWorks_thenCorrect" classname="es.toni.OptionalExamples.Example3" time="0.0"/>
-  <testcase name="whenOrElseGetAndOrElseOverlap_thenCorrect" classname="es.toni.OptionalExamples.Example3" time="0.0"/>
-  <testcase name="whenOrElseGetWorks_thenCorrect" classname="es.toni.OptionalExamples.Example3" time="0.001"/>
-  <testcase name="whenOrElseGetAndOrElseDiffer_thenCorrect" classname="es.toni.OptionalExamples.Example3" time="0.0"/>
+  <testcase name="whenOrElseGetAndOrElseOverlap_thenCorrect" classname="es.toni.OptionalExamples.Example3" time="0.001"/>
+  <testcase name="whenOrElseGetWorks_thenCorrect" classname="es.toni.OptionalExamples.Example3" time="0.0"/>
+  <testcase name="whenOrElseGetAndOrElseDiffer_thenCorrect" classname="es.toni.OptionalExamples.Example3" time="0.001"/>
   <system-out><![CDATA[Getting Default Value
 Getting Default Value
 Using orElseGet:

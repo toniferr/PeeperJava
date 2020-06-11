@@ -3,13 +3,11 @@ language: java
 jdk:
   - openjdk14
 
-sudo: required
+sudo: false
 
 before_install:
   - chmod +x gradlew
-
-script:
-  - ./gradlew clean build -i --continue
+  - pip install --user codecov
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - codecov
