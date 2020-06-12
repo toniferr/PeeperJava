@@ -3,9 +3,14 @@ package es.toni;
 import es.toni.FunctionalInterfaceExamples.Ejemplo1;
 import es.toni.FunctionalInterfaceExamples.UsaEjemplo1;
 import es.toni.LambdaStreamExamples.Alumno;
+import es.toni.time.ZonaHoraria;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAdjusters;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -106,6 +111,80 @@ public class MainJDK8 {
         List<Alumno> nuevaLista= listaAlumnos.stream().filter(a -> a.getNombreCurso().contains("a"))
                 .collect(Collectors.toList());
         nuevaLista.forEach(System.out::println);
+
+
+        System.out.println("**********Zona horaria**********");
+
+        System.out.println("Método now");
+        ZonaHoraria zonaHoraria = new ZonaHoraria(LocalTime.now(),LocalDate.now(),LocalDateTime.now());
+        System.out.println(zonaHoraria);
+
+        System.out.println("Método LocalDate");
+        LocalDate.of(2020, 06, 12);
+        LocalDate.parse("2020-06-12");
+        LocalDate tomorrow = LocalDate.now().plusDays(1);
+        LocalDate previousMonthSameDay = LocalDate.now().minus(1, ChronoUnit.MONTHS);
+        DayOfWeek sunday = LocalDate.parse("2020-06-14").getDayOfWeek();
+        int twelve = LocalDate.parse("2020-06-12").getDayOfMonth();
+        boolean leapYear = LocalDate.now().isLeapYear();
+
+        boolean notBefore = LocalDate.parse("2020-06-12")
+                .isBefore(LocalDate.parse("2020-06-11"));
+        boolean isAfter = LocalDate.parse("2020-06-12")
+                .isAfter(LocalDate.parse("2020-06-11"));
+
+        LocalDateTime beginningOfDay = LocalDate.parse("2020-06-12").atStartOfDay();
+        LocalDate firstDayOfMonth = LocalDate.parse("2020-06-12")
+                .with(TemporalAdjusters.firstDayOfMonth());
+
+        System.out.println("Método LocalTime");
+        LocalTime thirteenThirty = LocalTime.parse("13:30");
+        LocalTime thirteenThirty2 = LocalTime.of(13, 30);
+        LocalTime fourteenThirty3 = LocalTime.parse("13:30").plus(1, ChronoUnit.HOURS);
+        int thirteen = LocalTime.parse("13:30").getHour();
+        boolean isbefore = LocalTime.parse("13:30").isBefore(LocalTime.parse("14:30"));
+        //El tiempo máximo, mínimo y mediodía de un día se puede obtener mediante constantes en la clase LocalTime
+        LocalTime maxTime = LocalTime.MAX;
+
+        System.out.println("Método LocalDateTime");
+        LocalDateTime.of(2020, Month.JUNE, 12, 13, 30);
+        LocalDateTime.parse("2020-06-12T13:30:00");
+
+        LocalDateTime.now().plusDays(1);
+        LocalDateTime.now().minusHours(2);
+        LocalDateTime.now().getMonth();
+
+        System.out.println("Método ZonedDateTime");
+        ZoneId zoneId = ZoneId.of("Europe/Paris");
+        Set<String> allZoneIds = ZoneId.getAvailableZoneIds();
+        System.out.println(allZoneIds);
+        ZonedDateTime zonedDateTime = ZonedDateTime.of(LocalDateTime.now(), zoneId);
+        ZonedDateTime.parse("2020-06-12T13:30:00+01:00[Europe/Paris]");
+        ZoneOffset offset = ZoneOffset.of("+02:00");
+        OffsetDateTime offSetByTwo = OffsetDateTime.of(LocalDateTime.now(), offset);
+
+        System.out.println("Periodo");
+        LocalDate initialDate = LocalDate.parse("2020-06-12");
+        LocalDate finalDate = initialDate.plus(Period.ofDays(5));
+        int five = Period.between(initialDate, finalDate).getDays();
+        long cinco = ChronoUnit.DAYS.between(initialDate, finalDate);
+
+        System.out.println("Duración");
+        LocalTime initialTime = LocalTime.of(13, 30, 0);
+        LocalTime finalTime = initialTime.plus(Duration.ofSeconds(30));
+        long thirty = Duration.between(initialTime, finalTime).getSeconds();
+        long treinta = ChronoUnit.SECONDS.between(initialTime, finalTime);
+
+        System.out.println("Fecha y Calendario");
+        LocalDateTime.ofInstant(Instant.now(), ZoneId.systemDefault());
+        LocalDateTime.ofInstant(Calendar.getInstance().getTime().toInstant(), ZoneId.systemDefault());
+        LocalDateTime.ofEpochSecond(1465817690, 0, ZoneOffset.UTC);
+
+        System.out.println("Formato fecha y hora");
+        String localDateString = LocalDateTime.now().format(DateTimeFormatter.ISO_DATE);
+        String localDateFormatter = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+        System.out.println(localDateString);
+        System.out.println(localDateFormatter);
 
         /***************************************JDK9***************************************/
     }

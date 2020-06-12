@@ -19,6 +19,7 @@ _**Project structure**_
     - Optional chaining in java 8
   - Functional Interface (Examples taken from [here](https://www.adictosaltrabajo.com/2015/12/04/expresiones-lambda-con-java-8/))
   - Lambda Expressions and Stream (Examples taken from [here](https://www.ecodeup.com/ejemplos-practicos-de-expresiones-lambda-en-java-8/))
+  - LocalTime, LocalDate and LocalDateTime (Examples taken from [here](https://www.baeldung.com/java-8-date-time-intro))
 - Module jkd9
 - Module jkd10
 - Module jkd11
@@ -43,8 +44,9 @@ _**Estructura del proyecto**_
     - Transformando valor con map()
     - Transformando valor con flatMap()
     - Encadenamiento de s Optional en java 8
-  - Interfaz funcional (Examples taken from [aquí](https://www.adictosaltrabajo.com/2015/12/04/expresiones-lambda-con-java-8/))
-  - Expresiones lambda y Stream (Examples taken from [aquí](https://www.ecodeup.com/ejemplos-practicos-de-expresiones-lambda-en-java-8/))
+  - Interfaz funcional (Ejemplos extraídos de [aquí](https://www.adictosaltrabajo.com/2015/12/04/expresiones-lambda-con-java-8/))
+  - Expresiones lambda y Stream (Ejemplos extraídos de [aquí](https://www.ecodeup.com/ejemplos-practicos-de-expresiones-lambda-en-java-8/))
+  - LocalTime, LocalDate y LocalDateTime (Ejemplos extraídos de [aquí](https://www.baeldung.com/java-8-date-time-intro)) 
 - Módulo jkd9
 - Módulo jkd10
 - Módulo jkd11
