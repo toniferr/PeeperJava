@@ -9,7 +9,7 @@ _**Project structure**_
 
 - Module jdk8 
   - Optional examples (Examples taken from [here](https://www.baeldung.com/java-optional))
-    - Creation of optional objects (test.java.es.toni.OptionalExamples.Ejemplo1)
+    - Creation of optional objects
     - Value presence check (isPresent() and isEmpty()) and conditional action (ifPresent())
     - Default value with orElse () and orElseGet ()
     - Exceptions with orElseThrow() and return value with get()
