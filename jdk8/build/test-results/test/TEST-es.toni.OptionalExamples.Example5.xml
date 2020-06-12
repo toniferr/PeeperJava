@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="es.toni.OptionalExamples.Example5" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-11T18:42:48" hostname="DESKTOP-TONI" time="0.003">
+<testsuite name="es.toni.OptionalExamples.Example5" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-12T11:59:22" hostname="DESKTOP-TONI" time="0.005">
   <properties/>
   <testcase name="whenOptionalFilterWorks_thenCorrect" classname="es.toni.OptionalExamples.Example5" time="0.001"/>
-  <testcase name="whenFiltersWithoutOptional_thenCorrect" classname="es.toni.OptionalExamples.Example5" time="0.001"/>
-  <testcase name="whenFiltersWithOptional_thenCorrect" classname="es.toni.OptionalExamples.Example5" time="0.001"/>
+  <testcase name="whenFiltersWithoutOptional_thenCorrect" classname="es.toni.OptionalExamples.Example5" time="0.003"/>
+  <testcase name="whenFiltersWithOptional_thenCorrect" classname="es.toni.OptionalExamples.Example5" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="es.toni.OptionalExamples.Example6" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-11T18:42:48" hostname="DESKTOP-TONI" time="0.002">
+<testsuite name="es.toni.OptionalExamples.Example6" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-12T11:59:22" hostname="DESKTOP-TONI" time="0.002">
   <properties/>
-  <testcase name="givenOptional_whenMapWorksWithFilter_thenCorrect" classname="es.toni.OptionalExamples.Example6" time="0.001"/>
-  <testcase name="givenOptional_whenMapWorks_thenCorrect" classname="es.toni.OptionalExamples.Example6" time="0.001"/>
-  <testcase name="givenOptional_whenMapWorks_thenCorrect2" classname="es.toni.OptionalExamples.Example6" time="0.0"/>
+  <testcase name="givenOptional_whenMapWorksWithFilter_thenCorrect" classname="es.toni.OptionalExamples.Example6" time="0.0"/>
+  <testcase name="givenOptional_whenMapWorks_thenCorrect" classname="es.toni.OptionalExamples.Example6" time="0.0"/>
+  <testcase name="givenOptional_whenMapWorks_thenCorrect2" classname="es.toni.OptionalExamples.Example6" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

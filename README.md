@@ -8,8 +8,8 @@ Examples source of differents java version built with Gradle.
 _**Project structure**_
 
 - Module jdk8 
-  - Optional examples (Examples taken from: https://www.baeldung.com/java-optional)
-    - Creation of optional objects
+  - Optional examples (Examples taken from [here](https://www.baeldung.com/java-optional))
+    - Creation of optional objects (test.java.es.toni.OptionalExamples.Ejemplo1)
     - Value presence check (isPresent() and isEmpty()) and conditional action (ifPresent())
     - Default value with orElse () and orElseGet ()
     - Exceptions with orElseThrow() and return value with get()
@@ -17,6 +17,8 @@ _**Project structure**_
     - Transforming value with map()
     - Transforming value with flatMap()
     - Optional chaining in java 8
+  - Functional Interface (Examples taken from [here](https://www.adictosaltrabajo.com/2015/12/04/expresiones-lambda-con-java-8/))
+  - Lambda Expressions and Stream (Examples taken from [here](https://www.ecodeup.com/ejemplos-practicos-de-expresiones-lambda-en-java-8/))
 - Module jkd9
 - Module jkd10
 - Module jkd11
@@ -32,7 +34,7 @@ Fuente de ejemplos de diferentes versiones de Java construidas con Gradle.
 _**Estructura del proyecto**_
 
 - Módulo jdk8
-  - Ejemplos con Optional  (Ejemplos extraídos de: https://www.baeldung.com/java-optional)
+  - Ejemplos con Optional (Ejemplos extraídos de [aquí](https://www.baeldung.com/java-optional))
     - Creación de objectos optional
     - Comprobación de presencia de valor (isPresent() y isEmpty()) y acción condicional (ifPresent())
     - Valor predeterminado con orElse() y orElseGet()
@@ -41,6 +43,8 @@ _**Estructura del proyecto**_
     - Transformando valor con map()
     - Transformando valor con flatMap()
     - Encadenamiento de s Optional en java 8
+  - Interfaz funcional (Examples taken from [aquí](https://www.adictosaltrabajo.com/2015/12/04/expresiones-lambda-con-java-8/))
+  - Expresiones lambda y Stream (Examples taken from [aquí](https://www.ecodeup.com/ejemplos-practicos-de-expresiones-lambda-en-java-8/))
 - Módulo jkd9
 - Módulo jkd10
 - Módulo jkd11
